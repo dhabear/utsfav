@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhafa Favs</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        form {
+            width: 100%;
+            max-width: 400px;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"], input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="defaultpage.html" method="get">
+        <h2 style="color: rgb(206, 69, 31); font-family: Arial, Helvetica, sans-serif; text-align: center;">Daftar Dhaff</h2>
+        <label for="fname">Username:</label>
+        <input type="text" id="fname" name="fname" value="" style="border: 3.5px solid #bb2626;">
+        
+        <label>Kelamin:</label>
+        <div>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Pria</label>
+        </div>
+        <div>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Wanita</label>
+        </div>
+        
+        <label>Media yang saya sukai:</label>
+        <div>
+            <input type="checkbox" id="media1" name="media1" value="film">
+            <label for="media1">Film</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media2" name="media2" value="musik">
+            <label for="media2">Musik</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media3" name="media3" value="buku">
+            <label for="media3">Buku</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media4" name="media4" value="podcast">
+            <label for="media4">Podcast</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media5" name="media5" value="game">
+            <label for="media5">Game</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media6" name="media6" value="komik">
+            <label for="media6">Komik</label>
+        </div>
+        <div>
+            <input type="checkbox" id="media7" name="media7" value="seni">
+            <label for="media7">Lukisan</label>
+        </div>
+
+        <label for="genre">Pilih genre favorit:</label>
+        <select name="genre" style="border: 3.5px solid #bb2626;">
+            <option value="drama">Drama</option>
+            <option value="komedi">Komedi</option>
+            <option value="romance">Romance</option>
+            <option value="aksi">Aksi</option>
+            <option value="horror">Horror</option>
+        </select>
+        
+        <label>Deskirpsikan media favorit:</label>
+        <textarea rows="5" style="border: 2px solid #bb2626;" placeholder="Jelaskan media favorit Anda..."></textarea>
+        
+        <input type="submit" value="Kirim" style="border: 3.5px solid #bb2626;">
+        <input type="button" value="Batal" onclick="window.open('https://www.tiktok.com/@feb.winner/video/7417382690938227974?q=ambalinham&t=1729353418964', '_blank')" style="border: 3.5px solid #bb2626;">
+    </form>
+</body>
+</html>
